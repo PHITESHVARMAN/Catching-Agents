@@ -1,0 +1,15 @@
+agent_name: support_agent
+
+approved_tools:
+  - search_faq
+  - send_email
+
+approved_data_sources:
+  - faq_knowledge_base
+
+forbidden_by_default: true
+default_severity: high
+enforcement_mode: block
+
+stakeholders:
+  - your-email@example.com
